@@ -1,2 +1,2 @@
 #!/bin/bash
-egrep ^ [[:alpha:]] /etc/sch/sshd_config
+grep -i '^[a-z]' /etc/ssh/sshd_config
