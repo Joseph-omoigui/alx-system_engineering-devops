@@ -1,3 +1,2 @@
 #!/bin/bash
 decimal=$(echo $((2#$BINARY)))
-echo $decimal
